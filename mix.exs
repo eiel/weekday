@@ -5,7 +5,7 @@ defmodule Weekday.MixProject do
     [
       app: :weekday,
       version: "0.0.1",
-      elixir: "~> 1.6",
+      elixir: "~> 1.4",
       deps: deps(),
       # hex
       description: "provided day_of_week that return atom like :monday, :sunday",
