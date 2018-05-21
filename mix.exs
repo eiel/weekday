@@ -20,7 +20,9 @@ defmodule Weekday.MixProject do
       name: "weekday",
       source_url: "https://github.com/eiel/weekday",
       # The main page in the docs
-      docs: [main: "Weekday", extras: ["README.md"]]
+      docs: [main: "Weekday", extras: ["README.md"]],
+      # coveralls
+      test_coverage: [tool: ExCoveralls]
     ]
   end
 
@@ -34,7 +36,8 @@ defmodule Weekday.MixProject do
     [
       {:ex_doc, "~> 0.16", only: :dev, runtime: false},
       {:dialyxir, "~> 0.5", only: [:dev], runtime: false},
-      {:inch_ex, only: :docs}
+      {:inch_ex, only: :docs},
+      {:excoveralls, "~> 0.8", only: :test}
     ]
   end
 end
