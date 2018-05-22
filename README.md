@@ -16,7 +16,7 @@ by adding `weekday` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:weekday, "~> 0.0.2"}
+    {:weekday, "~> 0.0.3"}
   ]
 end
 ```
