@@ -1,4 +1,8 @@
 defimpl Weekday, for: Integer do
+  @moduledoc """
+  Weekday support Integer
+  """
+
   @doc """
   ## Examples
 
