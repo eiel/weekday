@@ -4,6 +4,8 @@ defimpl Weekday, for: Integer do
   """
 
   @doc """
+  `n` Integer 1..7
+
   ## Examples
 
       iex> Weekday.day_of_week(7)
