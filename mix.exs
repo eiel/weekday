@@ -4,7 +4,7 @@ defmodule Weekday.MixProject do
   def project do
     [
       app: :weekday,
-      version: "0.0.2",
+      version: "0.0.3",
       elixir: "~> 1.4",
       deps: deps(),
       # hex
