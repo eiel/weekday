@@ -1,6 +1,10 @@
 defmodule WeekdayTest do
   use ExUnit.Case
   doctest Weekday
+  doctest Weekday.Integer
+  doctest Weekday.Date
+  doctest Weekday.DateTime
+  doctest Weekday.NaiveDateTime
 
   test "Integer" do
     assert Weekday.day_of_week(1) == :monday
