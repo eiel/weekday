@@ -4,6 +4,8 @@ defimpl Weekday, for: Date do
   """
 
   @doc """
+  translate `date` to atom type day_of_week
+
   ## Example
 
       iex> Weekday.day_of_week(~D[2018-05-19])

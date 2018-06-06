@@ -14,7 +14,7 @@ defprotocol Weekday do
   @doc """
   Return type atom for day_of_week.
 
-  Supported type
+  `data` Supported type
   - `Integer`
   - `Date`
   - `DateTime`
@@ -36,5 +36,5 @@ defprotocol Weekday do
   """
 
   @spec day_of_week(any()) :: Weekday.t()
-  def day_of_week(n)
+  def day_of_week(data)
 end
